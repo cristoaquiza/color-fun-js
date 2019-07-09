@@ -11,7 +11,7 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js']
   },
-  entry: "./src/index.js",
+  entry: "./src/view.js",
   output: {
     path: __dirname + "/public",
     publicPath: "/assets/",
