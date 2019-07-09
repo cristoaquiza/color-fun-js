@@ -1,8 +1,8 @@
 import { store } from "./store";
-import { changeColorAction } from "./actions";
+import { changeColor, loadColor } from "./actions";
 
 document.getElementById('changerBtn').addEventListener('click', () => {
-    store.dispatch(changeColorAction('white'))
+    store.dispatch(loadColor())
 });
 
 const render = () => {

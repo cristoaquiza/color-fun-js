@@ -23,6 +23,7 @@
     ]
   },
   "dependencies": {
-    "redux": "^4.0.2"
+    "redux": "^4.0.2",
+    "redux-thunk": "^2.3.0"
   }
 }
